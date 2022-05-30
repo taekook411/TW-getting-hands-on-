@@ -18,21 +18,24 @@ public class TryProcessing extends PApplet{
 	@Override
 	public void draw(){
 	paintWhite();
-	drawCircle();}
+	drawCircle1();
+	drawCircle2();
+	drawCircle3();
+	drawCircle4();}
 	
-	private void drawCircle(){
+	private void drawCircle1(){
 	ellipse(x,HEIGHT/5,DIAMETER,DIAMETER);
 	x++;}
 	
-	private void drawCircle(){
+	private void drawCircle2(){
 	ellipse(x,HEIGHT2/5,DIAMETER,DIAMETER);
 	x+=2;}
 	
-	private void drawCircle(){
+	private void drawCircle3(){
 	ellipse(x,HEIGHT3/5,DIAMETER,DIAMETER);
 	x+=3;}
 	
-	private void drawCircle(){
+	private void drawCircle4(){
 	ellipse(x,HEIGHT4/5,DIAMETER,DIAMETER);
 	x+=4;}
 	
